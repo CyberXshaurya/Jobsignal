@@ -1,0 +1,18 @@
+{
+  "name": "jobsignal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CMD//SIGNAL — AI job-search command center.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
